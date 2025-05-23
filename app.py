@@ -3,7 +3,7 @@ from evaluator import evaluate_bmc
 
 st.set_page_config(page_title="BMC Evaluator AI", layout="wide")
 
-st.title("📊 Business Model Canvas Evaluator AI")
+st.title("📊 Business Model Canvas Evaluator")
 st.write("Upload your BMC (as text) and receive instant feedback.")
 
 bmc_input = st.text_area("Paste your BMC as text (or simulate):")
