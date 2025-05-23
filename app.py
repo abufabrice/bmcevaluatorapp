@@ -8,13 +8,19 @@ from io import BytesIO
 st.set_page_config(page_title="BMC Evaluator AI", page_icon="📊", layout="wide")
 
 # Sidebar branding
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/1/1f/Business_Model_Canvas.png", use_container_width=True)
+st.sidebar.image(
+    "https://upload.wikimedia.org/wikipedia/commons/1/1f/Business_Model_Canvas.png",
+    use_container_width=True
+)
 st.sidebar.title("The Business Model Engineer")
 st.sidebar.markdown("**Course Tool:** Business Modeling Innovation and Financial Engineering (BMIFE)")
 st.sidebar.markdown("Made with ❤️ by [Your Name or Brand]")
 
 # Hero image and headline
-st.image("https://miro.medium.com/v2/resize:fit:1400/1*Du58QcZQn7LmsYtuvEnH9Q.png", use_container_width=True)
+st.image(
+    "https://miro.medium.com/v2/resize:fit:1400/1*Du58QcZQn7LmsYtuvEnH9Q.png",
+    use_container_width=True
+)
 st.title("📊 Business Model Canvas Evaluator AI")
 st.subheader("Optimize and analyze startup strategies using AI-powered feedback.")
 
@@ -68,4 +74,4 @@ if st.button("Evaluate"):
 
 # Footer
 st.markdown("---")
-st.caption("© 2025 The Business Model Engineer — Empowering Stra
+st.caption("© 2025 The Business Model Engineer — Empowering Strategy Through Modeling")
